@@ -28,7 +28,7 @@ let notes = [
 ];
 
 app.get('/', (request, response) => {
-  response.send('Hello world, we are online');
+  response.send('Hello world');
 });
 
 app.get('/api/notes', (request, response) => {
