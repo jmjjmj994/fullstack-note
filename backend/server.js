@@ -2,6 +2,7 @@ import express from 'express';
 import 'dotenv';
 import cors from 'cors';
 const app = express();
+app.use(express.stacit('dist'));
 const PORT = process.env.PORT || 3001;
 app.use(cors());
 app.use(express.json());
